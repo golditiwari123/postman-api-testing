@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "b3d61382-db2e-4aeb-b972-6b74a851b5b0",
+		"name": "Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44258008",
+		"_collection_link": "https://somyatiwari-6654378.postman.co/workspace/7399e98f-5131-4a0b-9844-15c1fa3803cb/collection/44258008-b3d61382-db2e-4aeb-b972-6b74a851b5b0?action=share&source=collection_link&creator=44258008"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"emp_name\":\"somu\",\r\n\"company_name\":\"voda\",\r\n\"department\":\"it\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
